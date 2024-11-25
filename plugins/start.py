@@ -179,6 +179,10 @@ async def not_joined(client: Client, message: Message):
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ²", url="https://t.me/+AgCVNBsS6PA4ZWQ1")
         ],[
             InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ³", url="https://t.me/Dragon_Ball_in_Hindi_Dubbed_HQ")
+        ],[
+            InlineKeyboardButton(
+                "Join Channel",
+                url = ButtonUrl)
         ]
     ]
 
