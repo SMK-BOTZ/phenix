@@ -175,14 +175,10 @@ async def not_joined(client: Client, message: Message):
 
     buttons = [
         [
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ¹", url=client.invitelink),
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ²", url="https://t.me/+AgCVNBsS6PA4ZWQ1")
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ¹", url="https://t.me/Anime_Duo"),
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ²", url="https://t.me/+zkjwxvzerQVmNzI1")
         ],[
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ³", url="https://t.me/Dragon_Ball_in_Hindi_Dubbed_HQ")
-        ],[
-            InlineKeyboardButton(
-                "Join Channel",
-                url = ButtonUrl)
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ³", url=client.invitelink)
         ]
     ]
 
